@@ -1,5 +1,6 @@
 .search-field {
-    border: 1px solid #dfdfdf;
+    background-color: rgb(241, 243, 246);
+    border: 1px;
     border-radius: 12px;
     height: 40px;
     min-width: 400px;
@@ -8,6 +9,7 @@
 }
 
 .search-field > input {
+    background-color: rgb(241, 243, 246);
     border: none;
     outline: none;
     font-size: 0.9em;
@@ -22,40 +24,35 @@
 
 #search-btn {
     height: 100%;
-    background-color: #e7e7e7;
     border: 0px solid #666666;
     border-left: none;
-    border-radius: 0 12px 12px 0;
+    border-radius: 12px;
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 0 10px;
+    padding: 0 20px;
 }
 
 #search-btn .icon {
-    height: 20px;
-}
-
-#search-btn:hover {
-    background-color: #dfdfdf;
-}
-
-#search-btn:active {
-    background-color: #d1d1d1;
+    height: 15px;
 }
 
 .header-link {
+    color: #666666;
     display: flex;
     flex-flow: row;
     align-items: center;
     margin: 0 20px;
-    text-decoration: none;
     font-weight: 500;
+    text-decoration: none;
+    padding: 7px 10px;
+    border-radius: 15px;
 }
 
 .header-controls {
     margin-left: 60px;
     justify-content: flex-end;
+    margin-right: 40px;
 }
 
 .header-link > img {
